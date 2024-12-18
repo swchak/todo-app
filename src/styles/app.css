@@ -1,0 +1,74 @@
+.app-root {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header-root {
+  background-color: rgb(91, 91, 255);
+  color: white;
+  text-align: center;
+  height: 20%;
+  padding: 20px;
+}
+
+.view-todos-root {
+  margin: 20px;
+}
+
+.view-todos-title {
+  text-align: center;
+  padding: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.view-todos-content-root {
+  margin: auto;
+}
+
+.app-content-root {
+  height: 70%;
+  padding: 20px;
+}
+
+.app-content-root div {
+  margin: 20px auto;
+}
+
+table {
+  border-width: 2px;
+  border-style: solid;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgba(55, 55, 213, 0.6);
+  letter-spacing: 1px;
+}
+
+thead,
+tfoot {
+  background-color: blue;
+  color: white;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(230, 236, 243);
+}
+
+th,
+td {
+  border: 1px solid cornflowerblue;
+  padding: 5px;
+}
+
+.todo-completed-checkbox {
+  width: 100%;
+}
+
+.app-footer-root {
+  text-align: center;
+  line-height: 40px;
+  font-size: 0.8em;
+  height: 10%;
+  background-color: rgb(230, 234, 247);
+}

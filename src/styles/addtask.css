@@ -1,0 +1,40 @@
+.add-task-container {
+  border-color: rgb(91, 91, 255);
+  margin: 20px;
+}
+
+.add-task-header {
+  text-align: center;
+  display: block;
+  margin: 20px;
+  padding: 5px;
+}
+
+.add-task-content-root {
+  margin: auto;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.add-task-content-field {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-task-content-field-name {
+  flex-basis: 40%;
+  justify-self: left;
+}
+
+.add-task-content-field-value {
+  flex-basis: 60%;
+  justify-self: left;
+}
+
+#addBtn {
+  display: block;
+  margin: auto;
+}
